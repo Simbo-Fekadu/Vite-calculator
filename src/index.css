@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    @apply bg-blue-900
+}
+.calculator{
+    @apply bg-[#369d4a] w-80 mx-auto mt-20 p-4 rounded-lg shadow-lg
+}
+input{
+    @apply w-full text-right py-4 px-5 text-2xl bg-transparent text-white border-solid border-2 border-lime-700 mb-5
+}
+.nums{
+    @apply grid grid-cols-4 gap-3 mt-4 p-2
+}
+button{
+    @apply transition duration-300 active:translate-x-0.5 active:translate-y-0.5 text-xl rounded-md
+}
+.number {
+    @apply bg-slate-400 text-blue-900 p-1
+}
+.signs{
+    @apply bg-blue-600 text-white p-1 
+}
+.signs1{
+   @apply text-white p-1    
+}
